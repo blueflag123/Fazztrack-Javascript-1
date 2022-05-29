@@ -25,7 +25,9 @@ let { address: {street, city}} = data;
 let dataBaru = {
     address: {
         street : street,
-        city: city ,
+        city : city,
     },
 }
 console.log(dataBaru);
+
+
