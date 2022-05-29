@@ -1,8 +1,9 @@
-const nama = "Muhammad Dio Fitriadi";
-let umur = 23;
-let hobi = ["main games", "coding", "berenang"];
-const isMarried = false;
-const daftarSekolah = [
+const biodata = {
+nama : "Muhammad Dio Fitriadi",
+umur : 23,
+hobi : ["main games", "coding", "berenang"],
+isMarried : false,
+daftarSekolah : [
     { 
         namaSekolah: "SDN53Kuranji", 
         tahunMasuk: "2005", 
@@ -24,14 +25,16 @@ const daftarSekolah = [
     { 
         namaSekolah : "universitasUdayana", 
         tahunMasuk: "2017", 
-        tahunKeluar: "2021" }
-];
-let kemampuan = [
+        tahunKeluar: "2021" } 
+],
+kemampuan : [
     { skills: "HTML", level: "advanced" },
     { skills: "CSS", level: "advanced" },
     { skills: "javascript", level: "beginner" },
     { skills: "microsoftOffice", level: "advanced" },
     { skills: "english", level: "beginner" },
     { skills: "japanese", level: "beginner" }
-];
-const tertarikDenganCoding = true;
+],
+tertarikDenganCoding : true
+}
+console.log(biodata);
