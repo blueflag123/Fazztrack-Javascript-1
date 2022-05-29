@@ -3,8 +3,10 @@ printSegitiga = (num) =>  {
     for (let i = 1; i <= num; i++) {
       for (let j = 1; j <= num - i + 1 ; j++) {
         string = `${string} ${j} `;
+      
       }
-        string += "\n";
+        string = `${string}
+`;
     }
     return string;
   }
